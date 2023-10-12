@@ -11,8 +11,13 @@ jobs:
 
     steps:
     - name: Clone Remote Repository
+      uses: actions/checkout@master
+      with:
+        repository: https://github.com/ebenjamin-sfly/coding.git
+        token: ${{ secrets.my_pat }}
       run: |
         #git clone https://github.com/username/repo.git  # Replace with the URL of the remote repository
-        git clone https://github.com/ebenjamin-sfly/ga-workflow-test.git  # Replace with the URL of the remote repository
-        cd ga-workflow-test  # Change to the cloned repository directory
-        
+        # git clone https://github.com/ebenjamin-sfly/ga-workflow-test.git  # Replace with the URL of the remote repository
+        git clone https://github.com/ebenjamin-sfly/coding.git
+        # cd ga-workflow-test  # Change to the cloned repository directory
+        cd coding
