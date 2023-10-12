@@ -24,7 +24,6 @@ jobs:
         git commit -m "generated"
         git push
       # run: |
-      #   #git clone https://github.com/username/repo.git  # Replace with the URL of the remote repository
       #   # git clone https://github.com/ebenjamin-sfly/ga-workflow-test.git  # Replace with the URL of the remote repository
       #   git clone https://github.com/ebenjamin-sfly/coding.git
       #   # cd ga-workflow-test  # Change to the cloned repository directory
