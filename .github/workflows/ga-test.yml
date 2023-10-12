@@ -1,0 +1,19 @@
+name: Clone Remote Repository
+
+on:
+  push:
+    branches:
+      - main  # Replace 'main' with the branch you want to trigger the action on
+
+jobs:
+  clone-repo:
+    runs-on: ubuntu-latest  # You can choose a different runner as needed
+
+    steps:
+    - name: Clone Remote Repository
+      run: |
+        #git clone https://github.com/username/repo.git  # Replace with the URL of the remote repository
+        git clone https://github.com/ebenjamin-sfly/coding.git  # Replace with the URL of the remote repository
+        cd coding  # Change to the cloned repository directory
+	ls -l
+
