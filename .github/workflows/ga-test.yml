@@ -13,6 +13,6 @@ jobs:
     - name: Clone Remote Repository
       run: |
         #git clone https://github.com/username/repo.git  # Replace with the URL of the remote repository
-        git clone https://github.com/ebenjamin-sfly/ga-workflow-test .git  # Replace with the URL of the remote repository
+        git clone https://github.com/ebenjamin-sfly/ga-workflow-test.git  # Replace with the URL of the remote repository
         cd ga-workflow-test  # Change to the cloned repository directory
         
