@@ -15,6 +15,7 @@ jobs:
       with:
         repository: ebenjamin-sfly/coding.git
         token: ${{ secrets.my_pat }}
+        ref: 'master'
       # run: |
       #   #git clone https://github.com/username/repo.git  # Replace with the URL of the remote repository
       #   # git clone https://github.com/ebenjamin-sfly/ga-workflow-test.git  # Replace with the URL of the remote repository
